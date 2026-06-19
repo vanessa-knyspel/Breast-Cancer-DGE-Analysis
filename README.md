@@ -89,11 +89,19 @@ Network visualisation revealed extensive overlap between enriched pathways. ECM-
 
 ## Software and Tools
 - R
-- tidyverse
 - Bioconductor
 - GEO2R
+- Microsoft Excel
+
+## Reproducibility
+
+Required R packages:
+
+- GEOquery
+- tidyverse
 - EnhancedVolcano
 - pheatmap
 - clusterProfiler
-- Microsoft Excel
+- org.Hs.eg.db
+- enrichplot
 ```
