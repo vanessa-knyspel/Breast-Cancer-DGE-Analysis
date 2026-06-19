@@ -73,7 +73,7 @@ KEGG pathway enrichment analysis identified several significantly enriched pathw
 * Adipocytokine signalling pathway
 * Cytoskeleton in muscle cells
 
-These pathways are primarily involved in metabolic regulation, energy homeostasis, and cellular structure. The enrichment of PPAR and AMPK signalling pathways suggests substantial alterations in metabolic processes between tumour and normal breast tissue samples. These pathways are involved in metabolic regulation and energy homeostasis and may contribute to transcriptomic differences observed between tumour and normal tissue.
+These pathways are involved in metabolic regulation, energy homeostasis, and cellular structure. The enrichment of PPAR and AMPK signalling pathways suggests altered metabolic processes between tumour and normal breast tissue samples and may contribute to the transcriptomic differences observed between these groups.
 
 ### Pathway Network Analysis
 
