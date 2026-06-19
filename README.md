@@ -5,13 +5,13 @@
 
 This project investigated differential gene expression patterns between breast cancer and normal breast tissue using publicly available transcriptomic datasets from the Gene Expression Omnibus (GEO).
 
-The aim was to identify genes and biological pathways associated with breast cancer progression and demonstrate a standard bioinformatics workflow for transcriptomic data analysis.
+The aim was to identify genes and biological pathways associated with breast cancer.
 
 ## Methods
 
 ### Data Acquisition
 
-Gene expression data were obtained from the NCBI Gene Expression Omnibus (GEO) database.
+Gene expression data were obtained from the NCBI Gene Expression Omnibus (GEO) database (GSE15852).
 
 ### Differential Gene Expression Analysis
 
@@ -62,7 +62,7 @@ Gene Ontology (GO) enrichment analysis identified several significantly overrepr
 * Response to insulin
 * Adaptive thermogenesis
 
-Many enriched terms were associated with cellular metabolism, hormone signalling, and responses to environmental stimuli. Enrichment of oxygen-response pathways may reflect adaptation to altered metabolic conditions within the tumour microenvironment, while insulin and peptide hormone signalling pathways suggest changes in cellular regulatory networks associated with breast cancer progression.
+Many enriched terms were associated with cellular metabolism, hormone signalling, and responses to environmental stimuli. The enrichment of oxygen-response pathways may be consistent with altered metabolic and environmental responses in tumour tissue, while insulin and peptide hormone signalling pathways suggest changes in cellular regulatory networks associated with breast cancer progression.
 
 ### KEGG Pathway Enrichment Analysis
 
@@ -73,7 +73,7 @@ KEGG pathway enrichment analysis identified several significantly enriched pathw
 * Adipocytokine signalling pathway
 * Cytoskeleton in muscle cells
 
-These pathways are primarily involved in metabolic regulation, energy homeostasis, and cellular structure. The enrichment of PPAR and AMPK signalling pathways suggests substantial alterations in metabolic processes between tumour and normal breast tissue samples. Such pathways have previously been implicated in cancer-associated metabolic reprogramming.
+These pathways are primarily involved in metabolic regulation, energy homeostasis, and cellular structure. The enrichment of PPAR and AMPK signalling pathways suggests substantial alterations in metabolic processes between tumour and normal breast tissue samples. These pathways are involved in metabolic regulation and energy homeostasis and may contribute to transcriptomic differences observed between tumour and normal tissue.
 
 ### Pathway Network Analysis
 
