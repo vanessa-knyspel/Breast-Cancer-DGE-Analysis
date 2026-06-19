@@ -1,3 +1,17 @@
+# --------------------------------------------------
+# Breast Cancer Differential Gene Expression Analysis
+# Dataset: GSE15852
+#
+# Script: Heatmap Analysis
+#
+# Purpose:
+# Generate a clustered heatmap of the top
+# differentially expressed genes identified
+# between breast cancer and normal tissue.
+#
+# Author: Vanessa Knyspel
+# --------------------------------------------------
+
 library(tidyverse)
 expression_matrix <- read.delim(
   "GSE15852_series_matrix.txt.gz",
