@@ -97,7 +97,7 @@ dev.off()
 # Generate KEGG pathway-gene interaction network
 pdf(
   "KEGG_cnetplot.pdf",
-  width = 10,
+  width = 12,
   height = 8
 )
 
