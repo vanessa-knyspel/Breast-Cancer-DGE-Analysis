@@ -22,7 +22,7 @@ Genes were assessed using:
 - Log2 Fold Change (logFC)
 - Adjusted p-values (Benjamini-Hochberg correction)
 
-Significantly differentially expressed genes (DEGs) were identified using predefined statistical thresholds.
+Significantly differentially expressed genes (DEGs) were identified using an adjusted p-value threshold of < 0.05 and an absolute log2 fold change > 1.
 
 ### Data Visualisation
 
@@ -46,39 +46,38 @@ Volcano plot visualisation highlighted genes exhibiting both large fold changes 
 
 Heatmap analysis demonstrated distinct expression patterns capable of separating tumour and normal samples. Several genes, including PDE3B, RBP4, FHL1, KRT19, PPP1R1A, CD24, and SDC1, exhibited strong differential expression across sample groups. The clustering pattern demonstrated that tumour and normal samples could be distinguished based on their expression profiles, indicating robust transcriptional differences associated with breast cancer.
 
-PPCA demonstrated distinct transcriptomic differences between tumour and normal samples. The first principal component (PC1) explained 33.8% of total variance, while PC2 explained 7.5% and PC3 explained 3.9%. The separation of samples along PC1 indicated that gene expression profiles differed substantially between tumour and normal tissues, suggesting that disease status was a major contributor to transcriptomic variation.
+PCA demonstrated distinct transcriptomic differences between tumour and normal samples. The first principal component (PC1) explained 33.8% of total variance, while PC2 explained 7.5% and PC3 explained 3.9%. The separation of samples along PC1 indicated that gene expression profiles differed substantially between tumour and normal tissues, suggesting that disease status was a major contributor to transcriptomic variation.
 
-Gene Ontology (GO) analysis identified several significantly overrepresented biological processes among differentially expressed genes. The most enriched terms included:
+### Gene Ontology (GO) Enrichment Analysis
 
-- Lipid localisation
-- Response to peptide hormone
-- Response to xenobiotic stimulus
-- Response to oxygen levels
-- Response to decreased oxygen levels
-- Response to hypoxia
-- Cell-substrate adhesion
-- Alcohol metabolic process
+Gene Ontology (GO) enrichment analysis identified several significantly overrepresented biological processes among differentially expressed genes. The most enriched biological processes included:
 
-The enrichment of hypoxia-related pathways suggests adaptation to oxygen-limited tumour microenvironments, while enrichment of cell-substrate adhesion pathways may reflect changes associated with tumour invasion and metastasis.
+* Response to peptide hormone
+* Temperature homeostasis
+* Response to metal ion
+* Gliogenesis
+* Response to oxygen levels
+* Alcohol metabolic process
+* Cellular response to peptide hormone stimulus
+* Response to insulin
+* Adaptive thermogenesis
 
-KEGG Pathway Enrichment Analysis
+Many enriched terms were associated with cellular metabolism, hormone signalling, and responses to environmental stimuli. Enrichment of oxygen-response pathways may reflect adaptation to altered metabolic conditions within the tumour microenvironment, while insulin and peptide hormone signalling pathways suggest changes in cellular regulatory networks associated with breast cancer progression.
 
-KEGG analysis identified multiple significantly enriched pathways, including:
+### KEGG Pathway Enrichment Analysis
 
-- PPAR signalling pathway
-- ECM-receptor interaction
-- Focal adhesion
-- Proteoglycans in cancer
-- PI3K-Akt signalling pathway
-- Integrin signalling
-- cAMP signalling pathway
-- Cytoskeleton in muscle cells
+KEGG pathway enrichment analysis identified several significantly enriched pathways, including:
 
-Several enriched pathways are directly involved in cancer progression, cell migration, extracellular matrix interactions, and signal transduction. The enrichment of focal adhesion and ECM-receptor interaction pathways suggests substantial alterations in cell adhesion and communication with the extracellular environment during tumour development.
+* PPAR signalling pathway
+* AMPK signalling pathway
+* Adipocytokine signalling pathway
+* Cytoskeleton in muscle cells
 
-Pathway Network Analysis
+These pathways are primarily involved in metabolic regulation, energy homeostasis, and cellular structure. The enrichment of PPAR and AMPK signalling pathways suggests substantial alterations in metabolic processes between tumour and normal breast tissue samples. Such pathways have previously been implicated in cancer-associated metabolic reprogramming.
 
-Network visualisation revealed extensive overlap between enriched pathways. ECM-receptor interaction, focal adhesion, proteoglycans in cancer, and cytoskeletal pathways shared multiple genes, suggesting coordinated regulation of cellular adhesion, motility, and tumour-associated signalling networks. The prominence of PPAR signalling pathways additionally suggests altered metabolic regulation within breast cancer samples.
+### Pathway Network Analysis
+
+Network visualisation demonstrated overlap between enriched metabolic pathways, with several genes contributing to multiple signalling networks. Genes involved in PPAR signalling, AMPK signalling, and adipocytokine signalling formed interconnected functional modules, suggesting coordinated regulation of cellular metabolism and energy balance in breast cancer. These findings indicate that metabolic dysregulation may be an important feature of the transcriptomic differences observed between tumour and normal samples.
 
 ## Limitations
 
