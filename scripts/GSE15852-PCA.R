@@ -1,3 +1,17 @@
+# --------------------------------------------------
+# Breast Cancer Differential Gene Expression Analysis
+# Dataset: GSE15852
+#
+# Script: Principal Component Analysis
+#
+# Purpose:
+# Perform PCA on gene expression data and
+# visualise transcriptomic differences between
+# tumour and normal samples.
+#
+# Author: Vanessa Knyspel
+# --------------------------------------------------
+
 library(tidyverse)
 library(GEOquery)
 
